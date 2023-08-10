@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+         button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
         table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -27,8 +34,10 @@ tr:nth-child(even) {
     <h1>Java script</h1>
     <h2>Fetch Api</h2>
     <button onclick="FetchApi()">Fetch Api</button>
+    <button onclick="postData()">post data</button>
     <button onclick="PromiseFun()">Promise</button>
-    <div >
+    <button onclick="AsyncFun()">async & await</button>
+    <!-- <div >
         <table id="empList">
             <tr>
                 <th>id</th>
@@ -37,8 +46,9 @@ tr:nth-child(even) {
             </tr>
     
         </table>
-      </div>
+      </div> -->
 </body>
 </html>
 <script src="fetch-api.js"></script>
 <script src="promise-fun.js"></script>
+<script src="async.js"></script>
